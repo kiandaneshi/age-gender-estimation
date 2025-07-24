@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2025 Age and Gender Estimation for Plastic Surgery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY ACKNOWLEDGMENTS:
+
+This project incorporates and builds upon the following third-party components:
+
+1. UTKFace Dataset
+   - Source: Zhang, Zhifei, et al. "Age progression/regression by conditional adversarial autoencoder." IEEE Conference on Computer Vision and Pattern Recognition. 2017.
+   - Homepage: https://susanqq.github.io/UTKFace/
+   - Used under the dataset's original license terms
+
+2. Original Kaggle Notebook Inspiration
+   - "CNN-Based Age Gender Estimation" by Amerhu
+   - URL: https://www.kaggle.com/code/amerhu/cnn-based-age-gender-estimation/notebook
+   - This project extends and enhances the original work with clinical focus
+
+3. ResNet50 Architecture
+   - He, Kaiming, et al. "Deep residual learning for image recognition." CVPR 2016.
+   - Implementation via TensorFlow/Keras
+
+4. Grad-CAM Technique
+   - Selvaraju, Ramprasaath R., et al. "Grad-cam: Visual explanations from deep networks via gradient-based localization." ICCV 2017.
+
+All third-party components are used in accordance with their respective licenses and terms of use.
